@@ -5,3 +5,10 @@ body {
     place-content: center;
     min-height: 100vh;
 }
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 8 px;
+  }
