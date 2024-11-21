@@ -1,13 +1,21 @@
-import './App.css'
-import {TwitterFollowCard} from './TwitterFollowCard.jsx'
+import "./App.css";
+import { TwitterFollowCard } from "./TwitterFollowCard.jsx";
 
-export function App () {
-    return(
-        <section className='App'>
-            <TwitterFollowCard userName="User1" name="Usuario 1"/>
-            <TwitterFollowCard userName="User2" name="Usuario 2"/>
-            <TwitterFollowCard userName="User3" name="Usuario 3"/>
-            <TwitterFollowCard userName="User4" name="Usuario 4"/>
-        </section>
-    )
+export function App() {
+  return (
+    <section className="App">
+      <TwitterFollowCard IsFollowing name="Spyed" userName="spyed" />
+      <TwitterFollowCard
+        IsFollowing={false}
+        name="Omidnikrah"
+        userName="omidnikrah"
+      />
+      <TwitterFollowCard
+        IsFollowing={false}
+        name="Gummibeer"
+        userName="gummibeer.dev"
+      />
+      <TwitterFollowCard IsFollowing name="MDO" userName="mdo" />
+    </section>
+  );
 }
