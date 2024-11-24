@@ -1,4 +1,3 @@
-import { Children } from "react";
 import "./App.css";
 import { useState } from "react";
 import confetti from "canvas-confetti";
@@ -7,8 +6,6 @@ import { Square } from "./components/Square";
 import { TURNS } from "./constants";
 import { checkWinner, checkEndGame } from "./logic/board";
 import { WinnerModal } from "./components/WinnerModal";
-
-const board = Array(9).fill(null);
 
 function App() {
   const [board, setBoard] = useState(() => {
@@ -26,7 +23,7 @@ function App() {
 
   const [winner, setWinner] = useState(null);
 
-  const resetGame = (board) => {
+  const resetGame = () => {
     setBoard(Array(9).fill(null));
     setTurn(TURNS.X);
     setWinner(null);
