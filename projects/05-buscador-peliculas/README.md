@@ -22,4 +22,10 @@ Requerimientos:
 
 ✅ Hacer el fetching de datos a la API
 
-Extras 1: - Evitar la misma busqueda 2 veces seguidas - Busqueda automática nada mas escribir - Evitar que se haga la búsqueda continuamente al escribir (debounce)
+Extras 1:
+✅Evitar la misma busqueda 2 veces seguidas
+
+✅Ordenar Busqueda por algún criterio
+
+✅ Busqueda automática nada mas escribir
+✅ Evitar que se haga la búsqueda continuamente al escribir (debounce)
