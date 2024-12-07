@@ -34,3 +34,10 @@ main{
     border-radius: 8px;
     margin-top: 16px;
 }
+
+.checkSort{
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
