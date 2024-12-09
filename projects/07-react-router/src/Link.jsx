@@ -16,6 +16,7 @@ export function Link({ target, to, ...props }) {
     if (isMainEvent && isManageableEvent && !isModifiedEvent) {
       event.preventDefault();
       navigate(to);
+      window.scroll(0, 0);
     }
   };
   return <a onClick={handleClick} href={to} target={target} {...props} />;

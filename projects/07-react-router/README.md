@@ -14,8 +14,8 @@ Currently, two official plugins are available:
 - [x] Crea una forma de hacer SPAs (Single Page Applications)
 - [x] Poder navegar entre páginas con el botón atrás
 - [x] Crear componente Link para hacerlo declarativo
-- [] Crear componente Router para hacerlo más declarativo
-- [] Soportar rutas por defecto (404)
+- [x] Crear componente Router para hacerlo más declarativo
+- [x] Soportar rutas por defecto (404)
 - [] Soportar rutas con parámetros
 - [] Componente <Route /> para hacerlo declarativo
 - [] Lazy Loading de las rutas
