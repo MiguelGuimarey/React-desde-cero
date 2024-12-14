@@ -17,6 +17,6 @@ Currently, two official plugins are available:
 - [x] Crear componente Router para hacerlo más declarativo
 - [x] Soportar rutas por defecto (404)
 - [x] Componente <Route /> para hacerlo declarativo
-- [] Lazy Loading de las rutas
+- [x] Lazy Loading de las rutas
 - [] Testing
 - [] Publicar el paquete NPM
