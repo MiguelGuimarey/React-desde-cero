@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link } from "../Link";
+import { Link } from "../components/Link.jsx";
 
 export default function SearchPage({ routeParams }) {
   useEffect(() => {

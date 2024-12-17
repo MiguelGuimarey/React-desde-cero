@@ -18,5 +18,5 @@ Currently, two official plugins are available:
 - [x] Soportar rutas por defecto (404)
 - [x] Componente <Route /> para hacerlo declarativo
 - [x] Lazy Loading de las rutas
-- [] Testing
+- [x] Testing
 - [] Publicar el paquete NPM
